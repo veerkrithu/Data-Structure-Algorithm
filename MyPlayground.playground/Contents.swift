@@ -94,16 +94,35 @@ public class LinkedList<T> {
             next?.previous = newNode
         }
     }
+    
+    public func test() {
+    
+        
+        /*let a = 0
+        let b = 0
+        
+        if !(a == 0 && b == 0) {
+            print("Hai")
+        }
+        else {
+            print("Bye")
+        }
+        
+    }*/
 }
 
 
 let linkList = LinkedList<Int>()
 
-linkList.append(value: 1)
+/*linkList.append(value: 1)
 linkList.append(value: 2)
 print(linkList.last?.value)
 linkList.insert(value: 3, atIndex: 2)
-print(linkList.last?.value)
+print(linkList.last?.value)*/
+
+linkList.test()
+
+
 
 
 
